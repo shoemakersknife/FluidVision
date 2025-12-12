@@ -1,4 +1,4 @@
-# Interactive Fluid Simulation
+# Interactive Fluid Simulation + Hand Gesture Recognition
 
 [Live Demo](https://shoemakersknife.github.io/FluidVision/)
 

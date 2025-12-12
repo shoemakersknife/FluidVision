@@ -1,9 +1,21 @@
 # Interactive Fluid Simulation
 
-[https://shoemakersknife.github.io/FluidVision/](https://shoemakersknife.github.io/FluidVision/)
+[Live Demo](https://shoemakersknife.github.io/FluidVision/)
 
--Interactive WebGL rendered fluid simulation with real-time ML hand tracking.
+As someone pursuing mechanical engineering, I was told that fluids are very important. They're everywhere.
 
--Nginx configuration for accessing simulation via browser. Containerized simulation files using Docker and ran on local Kubernetes cluster. Portable for cloud deployment.
+Turbulence in engines
 
-# shoemakersknife.github.io/FluidVision
+Airfoil design
+
+Cooling systems
+
+And so on...
+
+I wanted to make a sleek physics simulation with a twist. We can't really grab rendered particles through the screen, but with some computer vision it's way more fun than using a mouse.
+
+- Interactive WebGL rendered fluid simulation with real-time ML hand tracking.
+- Utilized MediaPipe for hand gesture recognition.
+- Containerized setup using Docker for easy deployment.  
+- Configured for Nginx to access simulation through a browser.  
+- Portable and scalable for cloud deployment using Kubernetes.
